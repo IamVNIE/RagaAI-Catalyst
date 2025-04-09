@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ragaai_catalyst"
 description = "RAGA AI CATALYST"
 readme = "README.md"
-requires-python = ">=3.10,<=3.13"
+requires-python = ">=3.10,<=3.14"
 # license = {file = "LICENSE"}
 version = "2.1.6.4"
 authors = [
@@ -51,7 +51,7 @@ dependencies = [
     "openinference-instrumentation-mistralai",
     "openinference-instrumentation-openai",
     "openinference-instrumentation-bedrock",
-    "openinference-instrumentation-crewai",
+    # "openinference-instrumentation-crewai",
     "openinference-instrumentation-haystack",
     "openinference-instrumentation-openai-agents",
     "openinference-instrumentation-smolagents",
